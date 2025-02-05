@@ -1,0 +1,28 @@
+I want to devise a strategy of placing orders on Nicehash platform.
+I want strategy to yield highest APR. 90% or more if possible.
+Device algorithm that would yield highest APR.
+Provide tweakable parameters and explanation for them.
+I would like to tweak parameters that would adjust to the market conditions:
+- algorithms global speed
+- algorithms Nicehash speed
+- algorithms daily emissions and Nicehash available reward with its speed.
+Provide additional possible parameters and algorithm that would check market conditions and adjust to them.
+
+Directions:
+- Money will be deployed to Nicehash in 5 minutes intervals.
+- How much money will be deployed is not known.
+- Whole 5 minute lot money should be deployed.
+- Use just algorithms from tokens_data.txt
+- When money is deployed, place orders on Nicehash and select speed so orde lasts 1h.
+- If orders for the specific algorithms are already running, refill them. If not, place new orders.
+- If not money arrives in the 5 minutes intervals for the next hour, leave orders to close at speed they are running at.
+- BTC, BCH, RVN and KAS are separate tokens, but DOGE and LTC can be merged mined.
+- Check how much Nicehash algorithm speed represents in global hashrate.
+- Check block time and block reward in btc.
+- The goal is that we have high frequency of blocks mined, but with highest cumulative  reward.
+
+Constraints:
+- Use tokens and algorithms data from tokens_data.txt
+- Orders placed should now exceed 70% of algorithms daily consumption capacity.
+- When capacity for the specific algorithm is exceeded, refill orders of the algorithms that still have capacity.
+- If none of the algorithms have capacity, place money into separate accout for later use.

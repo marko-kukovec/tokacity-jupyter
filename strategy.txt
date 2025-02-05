@@ -1,0 +1,5 @@
+
+- Nichash available hashrate for the algorithm ( already in orders + remaining )
+- hourly reward capacity of the algorithm
+- hourly Nicehash reward capacity of the algorithm
+- Nichash algorithm speed in global hashrate ratio limit ( 15% )
