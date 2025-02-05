@@ -1,0 +1,31 @@
++*Out[22]:*+
+----
+Global coins data:
+{'tag': 'BCH', 'block_time': 634.0, 'block_reward_btc': 0.010683233739734036, 'difficulty': 371283605873.53, 'nethash': 2515222310359250788, 'daily_emissions_btc': 1.4558854812508215, 'algorithm': 'SHA-256'}
+{'tag': 'BTC', 'block_time': 650.0, 'block_reward_btc': 3.1556703550000003, 'difficulty': 108105433845147.0, 'nethash': 714322004438150615384, 'daily_emissions_btc': 419.4614133415385, 'algorithm': 'SHA-256'}
+{'tag': 'DOGE', 'block_time': 63.0, 'block_reward_btc': 0.027188348008403723, 'difficulty': 33606280.78379682, 'nethash': 2291077411215880, 'daily_emissions_btc': 37.28687726866796, 'algorithm': 'Scrypt'}
+{'tag': 'KAS', 'block_time': 1.0006, 'block_reward_btc': 6.51874012018845e-05, 'difficulty': 318627591.0865272, 'nethash': 1367674478632715370, 'daily_emissions_btc': 5.628814175337618, 'algorithm': 'kHeavyHash'}
+{'tag': 'LTC', 'block_time': 151.0, 'block_reward_btc': 0.0067136875, 'difficulty': 74389147.7639597, 'nethash': 2115887131281578, 'daily_emissions_btc': 3.8414741721854306, 'algorithm': 'Scrypt'}
+{'tag': 'RVN', 'block_time': 60.0, 'block_reward_btc': 0.000375, 'difficulty': 105616.6669125784, 'nethash': 7560335505034, 'daily_emissions_btc': 0.54, 'algorithm': 'KawPow'}
+----
+
+
++*Out[30]:*+
+----
+Nicehash data:
+{'SCRYPT': {'hashrate': 91.6117586171,
+  'hashrate unit': 'TH/s',
+  'paying': 0.0190773056,
+  'paying unit': 'BTC/TH/day'},
+ 'SHA256ASICBOOST': {'hashrate': 6.6737130414,
+  'hashrate unit': 'EH/s',
+  'paying': 0.5689875336,
+  'paying unit': 'BTC/EH/day'},
+ 'KAWPOW': {'hashrate': 0.8840753971,
+  'hashrate unit': 'TH/s',
+  'paying': 0.0849852481,
+  'paying unit': 'BTC/TH/day'},
+ 'KHEAVYHASH': {'hashrate': 55.8395776259,
+  'hashrate unit': 'PH/s',
+  'paying': 0.0040718622,
+  'paying unit': 'BTC/PH/day'}}----
