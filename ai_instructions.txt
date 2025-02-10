@@ -26,3 +26,4 @@ Constraints:
 - Orders placed should now exceed 70% of algorithms daily consumption capacity.
 - When capacity for the specific algorithm is exceeded, refill orders of the algorithms that still have capacity.
 - If none of the algorithms have capacity, place money into separate accout for later use.
+- Minimal order amount is 5 mBTC.
